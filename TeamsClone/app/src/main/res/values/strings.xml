@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Teams</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_meet">Meet</string>
+
+    <string name="side_nav_profile">Profile</string>
+    <string name="side_nav_invite">Invite Friends</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="login_page_text">Get started with your work, school, or personal Microsoft account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_page_microsoft_teams">Microsoft Teams</string>
+    <string name="login_page_sign_in">Sign in</string>
+    <string name="hint_phone_edit_text">Enter phone number</string>
+    <string name="Sign_up_for_free">Sign up for free</string>
+    <string name="otp_page_enter_code">Enter code</string>
+    <string name="otp_page_text">We texted on your phone number. Please enter the code to sign in.</string>
+    <string name="otp_page_sign_in">Sign in</string>
+    <string name="sign_up_phone_text">Create account</string>
+    <string name="sign_up_page_msg">By providing your phone number, you agree to receive service notifications to your mobile phone. Text messaging rates may apply.</string>
+    <string name="sign_up_phone_back">Back</string>
+    <string name="sign_up_phone_next">Next</string>
+    <string name="sign_up_name_frag_name">What\'s your name?</string>
+    <string name="sign_up_name_frag_msg">We need a little more info before you can use this app.</string>
+    <string name="sign_up_bday_frag_text">What\'s your birthdate? </string>
+    <string name="sign_up_bday_frag_msg">We need a liitle more info before you can use this app. Your date of birth helps us to provide you with age-apprpriate settings.</string>
+    <string name="sign_up_verification_text">Verify phone number</string>
+    <string name="sign_up_verification_msg1">We just sent a code</string>
+    <string name="sign_up_verification_msg2">Choosing Next means that you agree to the Privacy Statement and Microsoft Services Agreement</string>
+    <string name="sign_up_frag_date">Choose date</string>
+    <string name="sign_up_birthdate">Birthdate</string>
+    <string name="sign_up_birthday_frag_choose_date">Choose date</string>
+    <string name="log_out">Log Out</string>
+</resources>

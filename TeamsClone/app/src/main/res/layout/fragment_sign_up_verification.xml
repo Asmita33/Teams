@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SignUpVerification"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="122dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/microsoftlogo" />
+
+        <TextView
+            android:id="@+id/textViewPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:paddingLeft="20sp"
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:paddingLeft="20sp"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/sign_up_verification_text" />
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:textSize="11dp"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/sign_up_verification_msg1" />
+
+        <EditText
+            android:id="@+id/verification_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:hint="@string/otp_page_enter_code"
+            android:layout_marginRight="20dp"
+            android:inputType="numberPassword"/>
+
+        <TextView
+            android:id="@+id/text_error_verification"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:textSize="11dp"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/sign_up_verification_msg2" />
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/verification_frag_next"
+            android:layout_marginTop="25sp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/design_default_color_surface"
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:text="@string/sign_up_phone_next"
+            android:textSize="12dp" />
+    </LinearLayout>
+</FrameLayout>
